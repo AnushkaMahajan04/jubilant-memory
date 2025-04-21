@@ -1,4 +1,3 @@
-package project2;
 
 public class Calculator1 {
 	int price = 999;
