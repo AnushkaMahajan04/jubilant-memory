@@ -17,32 +17,34 @@ public class Icecream {
 	        return flavor;
 	    }
 
-	    public void setFlavor(String flavor) {
-	        this.flavor = flavor;
+	    public void setFlavor(String nf) {
+	         flavor=nf;
+		    return nf;
 	    }
 
 	    public String getSize() {
 	        return size;
 	    }
 
-	    public void setSize(String size) {
-	        this.size = size;
+	    public void setSize(String ns) {
+	        size = ns;
+		    return ns;
 	    }
 
 	    public double getPrice() {
 	        return price;
 	    }
 
-	    public void setPrice(double price) {
-	        this.price = price;
+	    public void setPrice(double np) {
+	    price = np;
 	    }
 
 	    public boolean isContainsNuts() {
 	        return containsNuts;
 	    }
 
-	    public void setContainsNuts(boolean containsNuts) {
-	        this.containsNuts = containsNuts;
+	    public void setContainsNuts(boolean ncn) {
+	   containsNuts = ncn;
 	    }
 
 		@Override
